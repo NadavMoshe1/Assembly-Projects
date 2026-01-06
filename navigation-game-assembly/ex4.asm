@@ -312,4 +312,5 @@ stopGame:
 	out 21h, al
 	mov ax, 4c00h
 	int 21h;program ended
+
 END START
